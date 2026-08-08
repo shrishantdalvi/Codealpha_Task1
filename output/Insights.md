@@ -123,3 +123,10 @@ The comparison shows that estimated employed has a weak negative relationship wi
 - Accept Jammmu&kashmir other states having highest Unemployement_rate(%) also the bihar having equal unemployement in both the areas
 - While comparing the top10 region of unemployement during same timeperiod Tripura,Haryana,Rajasthan,Delhi,Bihar while Chandigarh and Sikkim are the only two states who holds unemployement_rate(%) in only urban areas not 1% of rural areas
 - by concluding the overall chart most of the state having high unemployement in rural areas some of them hold only urban areas some state having high percentage in rural areas that means unemployement is not depend on one area rural and urban the distribution is almost similar employement ploicies should focus more on both areas and specially on urban 
+
+## Conclusion
+- Unemployment rates varied significantly across different states and regions, indicating differences in employment opportunities and economic conditions.
+- The COVID-19 period caused a noticeable increase in unemployment, reflecting the impact of lockdowns and economic disruptions on employment.
+- Urban and rural areas showed different unemployment patterns, highlighting the influence of location and economic structure on employment.
+- Labour participation and employment rates were closely related to unemployment trends, showing how changes in workforce - participation affected the overall unemployment situation.
+- The analysis highlights the importance of regional employment policies, skill development, and job-creation initiatives to reduce unemployment and improve workforce participation.
