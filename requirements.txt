@@ -1,0 +1,6 @@
+
+Libraries that used for building whole project
+
+pandas
+matplotlib
+seaborn
