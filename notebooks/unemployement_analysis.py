@@ -1,8 +1,10 @@
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import time
-df = pd.read_csv(r"C:\Users\Shrishant Dalvi\OneDrive\Desktop\internship project1\data\Unemployment in india.csv")
+
+df = pd.read_csv("data/Unemployment in India.csv")
 
 print(df['Region'].head())
 print(df['Region'].tail())
@@ -465,4 +467,5 @@ plt.ylabel("Unemployement_rate(%)",fontsize=12)
 plt.grid(axis="y",linestyle="--",alpha=0.4)
 plt.legend(title="Area",frameon=True)
 plt.tight_layout()
-plt.show()  
+plt.show()   
+print(os.getcwd())
