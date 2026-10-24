@@ -69,7 +69,7 @@ An interactive dashboard analyzing unemployment trends, regional differences, an
 
 ### Dashboard Preview
 
-![Unemployment Analysis Dashboard](outputs/unemployment_dashboard.png)
+![Unemployment Analysis Dashboard](output/Unemployement_dashboard.png)
 
 ### Power BI Report
 
