@@ -61,3 +61,16 @@ Created visualizations using:
 - Implement machine learning models for unemployment prediction.
 - Use time-series forecasting for future trend analysis.
 - Develop interactive dashboards for better visualization.
+
+
+## 📊 Power BI Dashboard
+
+An interactive dashboard analyzing unemployment trends, regional differences, and rural vs. urban patterns.
+
+### Dashboard Preview
+
+![Unemployment Analysis Dashboard](outputs/unemployment_dashboard.png)
+
+### Power BI Report
+
+Download the `.pbix` file from the `powerbi` folder to explore the dashboard in Power BI Desktop.

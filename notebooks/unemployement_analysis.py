@@ -45,11 +45,12 @@ df["Frequency"] = df["Frequency"].str.strip()
 df["Area"] = df["Area"].str.strip()
 
 df = df.reset_index(drop=True)
-
+df.to_csv("Unemployement_cleaned.csv",index=False)
+print("Unemployement_cleaned.csv is saved successfully")
 
 
 #overall average Unemployement_rate(%) by region from 2019 to 2020
-top10 = df.groupby("Region")["Unemployement_rate(%)"].mean().sort_values(ascending=False).head(10)
+"""top10 = df.groupby("Region")["Unemployement_rate(%)"].mean().sort_values(ascending=False).head(10)
 plt.bar(
     top10.index,
     top10.values,
@@ -468,4 +469,36 @@ plt.grid(axis="y",linestyle="--",alpha=0.4)
 plt.legend(title="Area",frameon=True)
 plt.tight_layout()
 plt.show()   
-print(os.getcwd())
+print(os.getcwd()) 
+ """
+
+df["year"] = df["Date"].dt.year
+year_avg = df.groupby("year")["Unemployement_rate(%)"].mean().reset_index()
+print("total years:",len(year_avg))
+
+""" plt.plot(year_avg.index,year_avg.values,
+         color = "#42D9F5",
+         linewidth = 2.8,
+         marker = "o",
+         markersize = 7,
+         markeredgecolor = "white",
+         markeredgewidth =1.2,)
+
+
+plt.title("Avg_Unemployement rate(%) Over time",fontsize = 17,
+          fontweight = "bold",color = "white",pad=20)
+
+plt.xlabel("year",fontsize=12,fontweight="bold",color="white")
+plt.ylabel("Avg_Unemployement rate(%)",fontsize=12,fontweight="bold",color="white")
+
+plt.xticks(year_avg.index,color="white")
+plt.yticks(color="white")
+
+plt.grid(axis="y",
+         linestyle="--",
+         linewidth=0.7,
+         alpha=0.2,
+         color="#AAB8C8")
+
+plt.grid(axis="x", visible=False)
+plt.show() """
